@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#ultdoacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    gap: 9vw;
+    background-color: #042E39;
+}
+#doacoes{
+    height: 17vw;
+    width: 17vw;
+    background-color: black;
+    border-radius: 3vw;
+}

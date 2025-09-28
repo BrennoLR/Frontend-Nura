@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#header{
+    font-family: 'poppins';
+    align-content: center;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: #051E25;
+}
+#logoNura{
+    margin-top: 0.5%;
+    display: flex;
+    width: 13vw;
+    height: 8vh;
+}
+#btnpesquisar{
+    background-color: white;
+    padding-left: 2%;
+    border-style: none;
+    display: flex;
+    margin-top: 1%;    
+    border-radius: 2vw;
+    margin-left: 6vw;
+    width: 20vw;
+    height: 5vh;
+}
+#listaheaderrr{
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+    display: flex;
+    list-style: none;
+    gap: 2.5%;
+    font-size: 1.35vw;
+}
+nav{
+    width: 50%;
+    
+}
+#user{
+    margin-left: 4%;
+    height: 5vw;
+    width: 5vw;
+}

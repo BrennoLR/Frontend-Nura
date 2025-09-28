@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#importancia{
+    display: flex;
+    font-family: 'poppins';
+    background-color: #053642;
+    width: 100vw;
+    height: 50vh;
+}
+#texto1{
+    margin-left: 3vw;
+    margin-top: 1.3vw;
+    margin-right: 5vw;
+    font-size: 0.7vw;
+    align-items: center;
+    justify-content: center
+}
+#imgcri{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 3vw;
+}

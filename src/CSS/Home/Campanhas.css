@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#section{
+    font-family: 'poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C3B4D;
+    width: 100vw;
+    height: 65vh;
+    gap: 4.5%;
+}
+#article{
+    border-radius: 2vw;
+    align-items: center;
+    justify-content: center;
+    width: 16.5vw;
+    height: 45vh;
+    background-color: #042E39;
+}
+#fundopreto{
+    margin-left: 7.75%;
+    border-radius: 1.4vw;
+    margin-top: 10%;
+    width: 13.5vw;
+    height: 19vh;
+    background-color: rgb(0, 0, 0);
+}
+#p1{
+    font-size: 1.35vw;
+    color: rgb(255, 255, 255);
+}
+#p2{
+    font-size: 0.9vw;
+    color: rgb(255, 255, 255);
+}
+#formatacao{
+    margin-left: 5%;
+}

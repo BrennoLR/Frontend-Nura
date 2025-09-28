@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#ONGs{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    background-color: #042E39;
+}
+#tamimg{
+    border-radius: 3vw;
+    width: 22vw;
+    height: 22vw;
+}

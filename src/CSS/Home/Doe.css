@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#Doe{
+    font-family: 'poppins';
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #042E39;
+;
+}
+#textodoe{
+    text-align: center;
+    font-size: 2.0vw;
+    margin-left: 6.5vw;
+}
+#btnDoe{
+    margin-left: 50%;
+    border-radius: 1vw;
+    font-size: 2vw;
+}
+#imgcachorro{
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    width: 40vw;
+    height: auto;
+    margin-left: 10vw;
+}

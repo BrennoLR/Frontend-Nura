@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#Campanhas{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    background-color: #0C3B4D;
+}
+#novascam{
+    height: 30vh;
+    margin-left: 2.85vw;
+}
+#house{
+    border-radius: 2vw;
+    width: 20vw;
+    height: 30vh;
+    background-color: white;;
+}
+#newcam{
+        font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    background-color: #0C3B4D;
+
+}

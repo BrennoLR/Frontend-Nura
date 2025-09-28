@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#FAQ{
+    font-family: 'poppins';
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C3B4D;
+}
+#imgcrianca{
+    margin-right: 3vw;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 40vw;
+    height: auto;
+    float: left;
+}
+#lista{
+    font-size: 1.85vw;
+    list-style: none;
+    display: block;
+    padding-top: 2vw;
+}
+#liss{
+    padding-bottom: 2vh;
+}

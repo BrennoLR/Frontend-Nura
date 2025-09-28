@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#numeros{
+    font-family: 'poppins';
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    text-align: center;
+    background-color: #0C3B4D;
+}
+#ajtam{
+    width: 13vw;
+    height: auto;
+}
+#fontetam{
+    font-size: 1.5vw;
+}

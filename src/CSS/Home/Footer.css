@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#footer{
+    font-family: 'poppins';
+    background-color: #051E25;
+    width: 100vw;
+    height: 45vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9%;
+}
+#listafooter{
+    list-style: none;
+    font-size: 1.5vw;
+}
+#title{
+    font-size: 2vw;
+    margin-bottom: 7%;
+}
+#redestam{
+    width: 3vw;
+    height: auto;
+}
+#Redessociais{
+    margin-top: 1vh;
+    display: flex;
+    gap: 5%;
+}
+#nurafooter{        
+    margin-bottom: 0.1%;
+    width: 9vw;
+    height: auto;
+}

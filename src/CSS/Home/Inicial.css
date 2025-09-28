@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#Inicial{
+    font-family: 'poppins';
+    height: auto;
+    width: 100vw;
+    display: flex;
+    background-color: #042E39;
+}
+#imginicio{
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    height: auto;
+    width: 40vw;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#texto{
+    margin-top: 5vh;
+    padding: 2vw;
+    font-size: 1.8vw;
+    margin-left: 3%;
+}
+#h1{
+    margin-left: 3%;
+    font-size: 5vw;
+}
