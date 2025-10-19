@@ -11,34 +11,58 @@
 #logoNura{
     margin-top: 0.5%;
     display: flex;
-    width: 13vw;
+    width: 10vw;
     height: 8vh;
 }
-#btnpesquisar{
-    background-color: white;
-    padding-left: 2%;
-    border-style: none;
+#pesquisar{
+    position: relative;
     display: flex;
-    margin-top: 1%;    
+    align-items: center;
+    margin-top: 3.2vh;
+    margin-left: 12vw;
+    width: 15vw;
+    height: 3.5vh;
+}
+.btnpesquisar{
+    width: 100%;
+    height: 100%;
+    padding-right: 1vw; 
+    padding-left: 0.5vw;
     border-radius: 2vw;
-    margin-left: 6vw;
-    width: 20vw;
-    height: 5vh;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 0.9vw;
+}
+
+#lupa {
+    position: absolute;
+    right: 0.7vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1vw;
+    color: black;
+    pointer-events: none; 
 }
 #listaheaderrr{
-    margin-top: 2.5vh;
-    margin-left: 5vw;
+    margin-left: 13vw;
     display: flex;
     list-style: none;
+    margin-top: 3.2vh;
     gap: 2.5%;
-    font-size: 1.35vw;
+    font-size: 1.05vw;
+    cursor: pointer; 
 }
 nav{
-    width: 50%;
+    width:50%;
     
 }
-#user{
-    margin-left: 4%;
-    height: 5vw;
-    width: 5vw;
+.user {
+    font-size: 3vw; 
+    display: flex;
+    margin-left: 4.6vw;
+    margin-top: 1.7vh;
+    color: #ffffff;
+    cursor: pointer; 
 }

@@ -1,0 +1,67 @@
+.secondary-section {
+    margin-top: -2.3vh;
+    width: 100vw;
+    height: 65vh;
+    background-color: #0C3B4D;
+}
+
+.secondary-section-title {
+    color: white;
+    font-size: 3.7vh;
+    margin-left: 40vw;
+    margin-top: 2.3vh;
+}
+
+.campaigns-container {
+    display: flex;
+    margin-top: 4.5vw;
+}
+
+.campaign-card {
+    width: 20vw;
+    height: 40vh;
+    background-color: #042E39;
+    border-radius: 2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.left-arrow {
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+.right-arrow {
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+.campaign-title {
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+}
+
+.campaign-description {
+    color: white;
+    font-size: 1.5vh;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+    margin-right: 1.5vw;
+}
+
+.campaign-image {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 18vw;
+    height: 18vh;
+    border-radius: 1.7vw;
+    background-color: royalblue;
+}

@@ -1,0 +1,26 @@
+#sessaoInicial {
+    width: 100vw;
+    height: 55vh;
+    background-color: #042E39;
+    display: flex;
+    overflow: hidden;
+}
+
+#mensagemInicial {
+    color: white;
+    font-size: 3.7vh;
+    margin-left: 3vw;
+    margin-top: 2.3vh;
+}
+
+#cachorroImg {
+    margin-top: 2vh;
+    margin-bottom: 2.5vh;
+    margin-left: 9.8vw;
+    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 3vw;
+    border-color: rgb(5, 146, 202);
+    border-style: solid;
+    border-width: 0.2vw;
+    border-right-style: none;
+}

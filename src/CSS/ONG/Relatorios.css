@@ -1,0 +1,13 @@
+#relatoriosSessao{
+    margin-top: -2.3vh;
+    width: 100vw;
+    height: 50vh;
+    background-color: #042E39;
+}
+
+#relatoriosSessapTitulo {
+    color: white;
+    font-size: 3.7vh;
+    margin-left: 45vw;
+    margin-top: 2.3vh;
+}

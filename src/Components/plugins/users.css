@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(172, 160, 160);
+}
+
+table {
+    margin-left: 5vw;
+    border-collapse: collapse;
+    width: 90vw;
+}
+
+td {
+    border: 0.1vw solid #1b0e0e;
+    color: black;
+    padding: 0.2vw;
+    font-size: 0.7vw;
+}
+
+th {
+    border: 0.1vw solid rgb(0, 0, 0);
+    background-color: #4d4848;
+    padding: 0.2vw;
+    font-size: 0.8VW;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+.table-title-users {
+    font-family: 'poppins';
+    margin-left: 37.5vw;
+    margin-top: -40vh;
+    color: black;
+    font-size: 3vw;
+}

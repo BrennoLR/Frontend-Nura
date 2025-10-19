@@ -1,28 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' );
 
-#FAQ{
-    font-family: 'poppins';
+/* Renomeado de #FAQ para #faq-secao */
+#FAQ {
+    font-family: 'poppins', sans-serif;
     width: 100vw;
     height: 55vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #0C3B4D;
+    justify-content: flex-start;
+    color: white;
 }
-#imgcrianca{
-    margin-right: 3vw;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 40vw;
-    height: auto;
+
+/* Renomeado de #imgcrianca para #imagem-crianca */
+#imagem-crianca {
+    margin-right: 12vw;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    box-shadow: 5px 4px 6vh rgb(0, 0, 0);
+    border: 0.3vw solid rgb(62, 106, 107);
+    width: 35vw;
+    height: 40vh;
     float: left;
 }
-#lista{
-    font-size: 1.85vw;
-    list-style: none;
-    display: block;
-    padding-top: 2vw;
+
+/* Renomeado de #Perguntas para #perguntas-frequentes */
+#PerguntasFQ {
+  width: 45vw;
 }
-#liss{
-    padding-bottom: 2vh;
+
+#PerguntasFQ h3 {
+  text-align: center;
+  font-size: 3vh;
+  margin-left: -3vw;
+  margin-top: -4vh;
+}
+
+details {
+  width: 45vw;
+  margin-left: -3vw;
+  min-height: 6vh;
+  background-color: #104b5e;
+  margin-bottom: 1.1vh;
+  border-radius: 0.5vw;
+  padding: 0.8vh 0.5vw;
+  transition: all 0.3s ease;
+}
+
+details summary {
+  cursor: pointer;
+  font-size: 1.5vw;
+  font-weight: 1000;
+  list-style: none;
+  position: relative;
+  padding-right: 2vw;
+  padding-top: 0.4vh;
+}
+
+details summary::before {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  content: '-';
+}
+
+details p {
+  font-size: 0.9vw;
+  margin-top: 1vh;
+  color: #e0e0e0;
+  line-height: 1.5;
+  padding-left: 0.5vw;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height 0.5s ease-out, margin-top 0.5s ease-out;
+}
+details[open] p {
+    height: 5vh;
+  max-height: 10vh; /* Um valor alto o suficiente para o conteúdo */
+  margin-top: 1vh;
 }

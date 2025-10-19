@@ -1,6 +1,6 @@
 import '../../CSS/Doador/Header.css';
-import logoNura from '../../Images/imgheader/logonura.png';
-import user from '../../Images/imgheader/user.png'
+import logoNura from '../../Images/assets/Geral/logo.png';
+import user from '../../Images/assets/Geral/user.png'
 
 export default function Header() {
   return (

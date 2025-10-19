@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN BOX */
+.main-box {
+    width: 70vw;
+    height: 70vh;
+    background: #f9f9f9;
+    border-radius: 2vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+/* PAINEL AZUL */
+.side-panel {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: #102438;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo {
+    width: 8vw;
+    margin-bottom: 2vh;
+}
+
+.side-panel h1 {
+    font-size: 1.8vw;
+    margin-bottom: 1vh;
+}
+
+.side-panel h3 {
+    font-size: 1vw;
+    margin: 1vh 0;
+}
+
+.side-panel h5 {
+    font-size: 0.9vw;
+    margin-top: 1vh;
+}
+
+.side-panel button {
+    margin-top: 2vh;
+    width: 10vw;
+    height: 4.5vh;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.side-panel button:hover {
+    background: #111;
+}
+
+/* FORM BOX (retângulo branco que desliza) */
+.form-box {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background: #fff;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    z-index: 2;
+    left: 40%;
+}
+
+/* -------- ESTADOS DE TRANSIÇÃO -------- */
+.main-box.login-mode .side-panel {
+    left: 0;
+}
+
+.main-box.login-mode .form-box {
+    left: 40%;
+    border-radius: 2vw 0 0 2vw;
+}
+
+.main-box.register-mode .side-panel {
+    left: 60%;
+}
+
+.main-box.register-mode .form-box {
+    left: 0;
+    border-radius: 0 2vw 2vw 0;
+}
+
+/* FORM INTERNO */
+.form-area {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-area h1 {
+    font-size: 1.8vw;
+    margin-bottom: 2vh;
+    color: #000;
+}
+
+label {
+    font-size: 1vw;
+    color: #000;
+    margin-left: 0.8vw;
+}
+
+.input {
+    width: 17vw;
+    height: 4.5vh;
+    border-radius: 2vw;
+    border: 1px solid #0078f8;
+    outline: none;
+    padding-left: 1vw;
+    font-size: 0.9vw;
+    margin-bottom: 1.5vh;
+}
+
+/* BOTÕES */
+.white-btn,
+.blue-btn {
+    align-items: center;
+    border-radius: 3vw;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.white-btn {
+    background: #fff;
+    color: #000;
+    width: 14.5vw;
+    height: 4.5vh;
+}
+
+.white-btn:hover {
+    background: #f3f3f3;
+}
+
+.blue-btn {
+    background: #0078f8;
+    color: white;
+    width: 35vw;
+    height: 5vh;
+    margin-left: -0.5vw;
+}
+
+.blue-btn:hover {
+    background: #0064d1;
+}
+
+/* EXTRAS */
+.buttons {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vh;
+}
+
+.forgot {
+    font-size: 0.8vw;
+    margin-bottom: 1vh;
+    color: #111;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    margin: 2vh 0;
+    font-size: 1vw;
+    position: relative;
+}
+
+.divisor::before,
+.divisor::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: 0 1vw;
+}
+
+.user-type-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-bottom: 2vh;
+}
+
+.user-type-buttons button {
+    background-color: #6d6d6d;
+    color: white;
+    border: none;
+    border-radius: 3vw;
+    padding: 0.7vh 1.5vw;
+    cursor: pointer;
+    font-size: 0.9vw;
+    width: 10vw;
+}
+.user-type-buttons button.ativo {
+    background-color: #4e5ab4;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3vw;
+    padding: 0.7vh 1.5vw;
+    cursor: pointer;
+    font-size: 0.9vw;
+    width: 10vw;
+}
+
+.user-type-buttons button:hover {
+    background: #0064d1;
+}
+
+.two-columns {
+    margin-left: -0.5vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.terms {
+    margin-top: 1vh;
+    color: #000;
+    cursor: pointer;
+}
+
+/* ====== ANIMAÇÃO DE FADING ====== */
+.side-panel *,
+.form-box * {
+    transition: opacity 0.1s ease;
+    opacity: 1;
+}
+
+/* Texto some no exato momento do clique */
+.main-box.transitioning .side-panel *,
+.main-box.transitioning .form-box * {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    /* some rápido */
+    pointer-events: none;
+}
+
+/* Reaparece suavemente após o movimento */
+.main-box:not(.transitioning) .side-panel *,
+.main-box:not(.transitioning) .form-box * {
+    opacity: 1;
+
+    /* delay leve pra aparecer */
+}
+
+.input-login {
+    width: 30vw;
+    height: 4.5vh;
+    border-radius: 2vw;
+    border: 1px solid #0078f8;
+    outline: none;
+    padding-left: 1vw;
+    font-size: 0.9vw;
+    margin-bottom: 1.5vh;
+}
+
+.termss {
+    display: flex;
+}
+
+.terms-color {
+    margin-left: 0.2vw;
+    margin-top: 1.1vh;
+    color: black;
+}
+
+.title {
+    margin-left: 9vw;
+}
+
+.blue-btn:disabled {
+    background: #b5b5b5;
+    /* cinza */
+    color: #070000;
+    border: 0.2 solid #999;
+    transition: none;
+    /* remove animações */
+}
+
+/* Impede mudança de cor no hover */
+.blue-btn:disabled:hover {
+    background: #b5b5b5;
+}
+
+/* Checkbox (quando botão estiver desativado ou não marcado) */
+input[type="checkbox"]:not(:checked) {
+    cursor: default;
+    /* tira o pointer */
+}
+
+.input-valid {
+    border: 0.1vw solid green;
+}
+
+.input-invalid {
+    border: 0.1vw solid red;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    padding-right: 40px;
+    /* espaço para o ícone do olho */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.icon-top {
+    position: absolute;
+    right: 1vw;
+    /* alinhado à direita */
+    color: #777;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.2s;
+    margin-top: -1vh;
+}
+
+.icon-top:hover {
+    color: #000;
+}
+
+.icon-login {
+    position: absolute;
+    right: 4.5vw;
+    /* alinhado à direita */
+    color: #777;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.2s;
+    margin-top: -1vh;
+}
+
+.icon-login:hover {
+    color: #000;
+}

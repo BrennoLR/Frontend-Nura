@@ -1,0 +1,96 @@
+#eventosSessao {
+    margin-top: -2.3vh;
+    width: 100vw;
+    height: 65vh;
+    background-color: #042E39;
+}
+
+#eventosSessaoTitulo {
+    color: white;
+    font-size: 3.7vh;
+    margin-left: 46.5vw;
+    margin-top: 2.3vh;
+}
+
+#conteinerEventos {
+    flex-direction: column;
+    margin-top: 7vw;
+}
+
+#buttonEventos {
+    height: 7vh;
+    width: 25vw;
+    background-color: #051E25;
+    border-radius: 1vw;
+    color: white;
+    font-size: 2vh;
+    margin-top: 1.5vh;
+    margin-left: 10vw;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#setaButton {
+    margin-left: 0.5vw;
+}
+
+#tituloCampanhaEvento {
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+}
+
+#descCampanhaEvento {
+    color: white;
+    font-size: 1.5vh;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+    margin-right: 1.5vw;
+}
+
+#imgCampanhaEvento {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    width: 18vw;
+    height: 18vh;
+    border-radius: 1.7vw;
+    background-color: royalblue;
+}
+
+#cardCampanhaEvento {
+    width: 20vw;
+    height: 40vh;
+    background-color: #042E39;
+    border-radius: 2vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+}
+
+#cardConteinerEventos {
+    display: flex;
+    padding: 4vh;
+    border-radius: 2vh;
+    background-color: #0C3B4D;
+    margin-top: -40vh;
+    margin-left: 45vw;
+    width: 50vw;
+    height: 50vh;
+}
+
+#setaEsquerdaEvento {
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+#setaDireitaEvento {
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 15vh;
+    margin-left: 1vw;
+}

@@ -1,14 +1,14 @@
-import logo from "../../Images/assets/logo.png";
-import sino from "../../Images/assets/sinos.png";
-import usuario from "../../Images/assets/do-utilizador.png";
-import criancas from "../../Images/assets/crianças.jpg";
-import cafe from "../../Images/assets/cafécomsorrisos.jpg";
-import alimento from "../../Images/assets/alimento.jpg";
-import cao from "../../Images/assets/cão.jpg";
-import coracao from "../../Images/assets/core.jpg";
-import tt from "../../Images/assets/tt.svg";
-import instagram from "../../Images/assets/instagram (3).png";
-import youtube from "../../Images/assets/youtube (1).png";
+import logo from "../../Images/assets/Geral/logo.png";
+import sino from "../../Images/assets/Geral/sinos.png";
+import usuario from "../../Images/assets/Geral/do-utilizador.png";
+import criancas from "../../Images/assets/Voluntario/crianças.jpg";
+import cafe from "../../Images/assets/Geral/cafécomsorrisos.jpg";
+import alimento from "../../Images/assets/Geral/alimento.jpg";
+import cao from "../../Images/assets/Geral/cão.jpg";
+import coracao from "../../Images/assets/Voluntario/core.jpg";
+import tt from "../../Images/assets/Geral/x.svg";
+import instagram from "../../Images/assets/Geral/instagram.png";
+import youtube from "../../Images/assets/Geral/youtube.png";
 import '../../CSS/Voluntário/geralVolun.css'
 
 export default function PaginaVoluntario() {

@@ -1,5 +1,5 @@
 import '../../CSS/Doador/Inicial.css'
-import imginicio from '../../Images/imgInicia/1693422014373.png'
+import imginicio from '../../Images/assets/Doador/1693422014373.png'
 
 export default function Inicial(){
     return(

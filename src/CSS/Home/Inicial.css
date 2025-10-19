@@ -1,28 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap' );
 
 #Inicial{
-    font-family: 'poppins';
     height: auto;
     width: 100vw;
     display: flex;
     background-color: #042E39;
+    color: #FFFFFF; /* Adicionado para texto branco, como na imagem */
+    padding: 6vh 7vw; /* Ajuste para espaçamento geral */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: space-between; /* Espaço entre o texto e a imagem */
 }
+
 #imginicio{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-right: -7vw;
+    margin-left: 10vw;
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
-    height: auto;
-    width: 40vw;
-    float: right;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 55vw;
+    height: 55vh;
+    border: 0.3vw solid cadetblue;
+    box-shadow: 5px 4px 7vh rgb(0, 0, 0);
 }
-#texto{
-    margin-top: 5vh;
-    padding: 2vw;
+
+.textoInicial{
+    font-family: poppins;
+    font-weight:300;
     font-size: 1.8vw;
-    margin-left: 3%;
+    line-height: 1.4; /* Melhora a leitura */
+    max-width: 40vw; /* Limita a largura do texto para melhor visualização */
 }
-#h1{
-    margin-left: 3%;
-    font-size: 5vw;
+
+h1{
+    font-size: 6vw; /* Aumentado para corresponder à imagem */
+    font-family: 'Lora'; /* **CORREÇÃO PRINCIPAL AQUI** */
+    margin-bottom: 2vh; /* Espaçamento entre o título e o parágrafo */
+    font-weight:500;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 45vw; /* Limita a largura do container de texto */
 }

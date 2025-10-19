@@ -1,7 +1,7 @@
-import logonurafooter from '../../Images/imgfooter/logonura.png'
-import x from '../../Images/imgfooter/x.svg'
-import youtube from '../../Images/imgfooter/youtube.png'
-import instagram from '../../Images/imgfooter/instagram.png'
+import logonurafooter from '../../Images/assets/Geral/logo.png'
+import x from '../../Images/assets/Geral/x.svg'
+import youtube from '../../Images/assets/Geral/youtube.png'
+import instagram from '../../Images/assets/Geral/instagram.png'
 import '../../CSS/Home/Footer.css'
 
 export default function Footer(){

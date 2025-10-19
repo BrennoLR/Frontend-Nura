@@ -1,5 +1,5 @@
 import '../../CSS/Doador/importancia.css'
-import criancas from '../../Images/97294274.jpg'
+import criancas from '../../Images/assets/Doador/1693422014373.png'
 
 export default function importancia(){
     return(

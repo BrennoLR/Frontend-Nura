@@ -1,5 +1,5 @@
 import '../../CSS/Doador/ultdoacoes.css'
-import ONG1 from '../../Images/imgONGs/ONG1.png'
+import ONG1 from '../../Images/assets/Home/Ongs/ONG1.png'
 
 export default function Ultdoacoes() {
     return (

@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 7%;
     text-align: center;
-    background-color: #0C3B4D;
+    background-color: #042E39;
 }
 #ajtam{
     width: 13vw;
@@ -17,4 +17,9 @@
 }
 #fontetam{
     font-size: 1.5vw;
+}
+#buttontam{
+    border-radius: 1vw;
+    width: 5vw;
+    margin-top: 1.5vh;
 }

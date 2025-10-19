@@ -1,0 +1,47 @@
+.doacoesRecebidas {
+    margin-top: -2.3vh;
+    width: 100vw;
+    height: 50vh;
+    background-color: #0C3B4D;
+}
+
+.doacoesRecebidasTitulo {
+    color: white;
+    font-size: 3.7vh;
+    margin-left: 37vw;
+    margin-top: 2.3vh;
+}
+
+.conteinerDoacoes{
+    display: flex;
+    margin-top: 5vw;
+}
+
+.icon {
+    height: 15vh;
+    width: 15vh;
+    margin-left: 10.5vw;
+}
+
+.descricaoIcon {
+    color: white;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    margin-left: 8vw;
+}
+
+.detalhes {
+    height: 6vh;
+    width: 12vw;
+    background-color: #051E25;
+    border-radius: 1vw;
+    color: white;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 8.5vw;
+    border: none;
+}
+
+.cardDoacao {
+    gap: 8vw;
+}

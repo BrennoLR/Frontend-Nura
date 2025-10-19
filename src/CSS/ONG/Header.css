@@ -1,0 +1,28 @@
+#header {
+    width: 100vw;
+    height: 11vh;
+    background-color: #051E25;
+    display: flex;
+}
+
+#nuraLogo {
+    margin-left: 1vw;
+    height: 9vh;
+    margin-top: 1vh;
+}
+
+#userIcon {
+    height: 7.5vh;
+    width: 7.5vh;
+    margin-top: 1.75vh;
+    margin-left: 1vw;
+    color: white;
+}
+
+#sinoIcon {
+    height: 7.5vh;
+    width: 7.5vh;
+    margin-top: 1.75vh;
+    margin-left: 74vw;
+    color: white;
+}

@@ -16,14 +16,20 @@
     margin-left: 6.5vw;
 }
 #btnDoe{
-    margin-left: 50%;
+    margin-left: 23vw;
     border-radius: 1vw;
     font-size: 2vw;
+    color: #ffff;
+    font-style: oblique;
+    box-shadow: 5px 4px 7vh rgb(0, 0, 0);;
+    background-color: cadetblue;
 }
 #imgcachorro{
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
     width: 40vw;
     height: auto;
-    margin-left: 10vw;
+    margin-left: 10vw; 
+    border: 0.3vw solid cadetblue;
+    box-shadow: 5px 4px 7vh rgb(0, 0, 0);
 }

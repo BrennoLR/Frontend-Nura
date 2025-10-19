@@ -1,4 +1,4 @@
-import house from '../../Images/imgNovasCam/home.png'
+import house from '../../Images/assets/Geral/home.png'
 import '../../CSS/Doador/Campanhas.css'
 
 export default function Campanhas(){
