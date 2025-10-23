@@ -12,6 +12,8 @@
     margin-bottom: 1%;
     border-bottom-left-radius: 3vw;
     border-top-left-radius: 3vw;
+    height: 50vh;
+    margin-right: -6vw;
 }
 #texto{
     font-size: 1.7vw;

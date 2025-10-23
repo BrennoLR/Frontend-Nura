@@ -22,7 +22,7 @@ export default function Campanhas() {
 
   const buscarCampanhas = async () => {
     try {
-      const res = await api.get<Campanha[]>("/camps");
+      const res = await api.get<Campanha[]>("/camp");
       setCampanhas(res.data);
       setIndiceAtual(0);
     } catch (err) {
